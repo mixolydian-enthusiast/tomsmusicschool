@@ -1,23 +1,19 @@
 body {
   background-color: #1F2527;
+  font-family: Arial, Tahoma, sans-serif;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 h1 {
   color: #EB6A3C;
-  font-family: 'Patrick Hand', cursive;
   font-size:40px;
 }
 
 h2 {
   color: #5DADEC;
-  font-family: 'Patrick Hand', cursive;
   font-size:30px;
 }
 
 div {
-  font-family: 'Patrick Hand', cursive;
   color: #EB6A3C;
   font-size:25px;
 }
