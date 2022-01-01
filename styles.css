@@ -1,0 +1,182 @@
+body {
+	max-width: 1080px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+	background-color: #1F2527;
+}
+
+h1 {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 40px;
+  color: #EB6A3C;
+}
+
+h2 {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #5DADEC; 
+}
+
+li, p {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #EB6A3C; 
+}
+
+li {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.Pooplord_container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-right: 30px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  background-color: #4A3D53;  
+}
+
+.Pooplord_container_text {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 50px;
+  color: #D6C5B2; 
+}
+
+.Scott-Cornman_container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-right: 30px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  background-color: #223320;  
+}
+
+.Scott-Cornman_container_text {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 50px;
+  color: #D8CE5E; 
+}
+  
+.Rupus_container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-right: 30px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  background-color: #3F3A2B;  
+}   
+
+.Rupus_container_text {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 50px; 
+  color: #D87C96;  
+}
+
+.Flarglin_container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-right: 30px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  background-color: #A4543A;  
+}   
+
+.Flarglin_container_text {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 50px;
+  color: #FFE300;   
+}
+
+.Pete_container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-right: 30px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  background-color: #10183D;  
+}
+
+.Pete_container_text {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 50px;
+  color: #CCD9F2; 
+}
+
+.Archie_container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-right: 30px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  background-color: #401A1A;  
+}
+
+.Archie_container_text {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 50px;
+  color: #FFAA7F; 
+}
+  
+.Rob_container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-right: 30px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  background-color: #34005F;  
+}   
+
+.Rob_container_text {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 50px;
+  color: #FFB4FC;   
+}
+
+.Richie_container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-right: 30px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  background-color: #1A1F40;  
+}   
+
+.Richie_container_text {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 50px;
+  color: #FFDC95;   
+}
