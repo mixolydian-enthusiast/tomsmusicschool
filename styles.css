@@ -29,6 +29,33 @@ li {
   margin-bottom: 25px;
 }
 
+.ul_header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.li_header {
+  float: center;
+}
+
+.li_header a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li_header a:hover {
+  background-color: #5DADEC;
+}
+
+.active {
+  background-color: #EB6A3C;
+}
+
 .Pooplord_container {
   display: flex;
   margin-top: 20px;
@@ -45,6 +72,7 @@ li {
 .Pooplord_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px;
+  overflow-wrap: anywhere;
   color: #D6C5B2; 
 }
 
@@ -64,6 +92,7 @@ li {
 .Scott-Cornman_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px;
+  overflow-wrap: anywhere;
   color: #D8CE5E; 
 }
   
@@ -83,6 +112,7 @@ li {
 .Rupus_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px; 
+  overflow-wrap: anywhere;
   color: #D87C96;  
 }
 
@@ -102,6 +132,7 @@ li {
 .Flarglin_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px;
+  overflow-wrap: anywhere;
   color: #FFE300;   
 }
 
@@ -121,6 +152,7 @@ li {
 .Pete_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px;
+  overflow-wrap: anywhere;
   color: #CCD9F2; 
 }
 
@@ -140,6 +172,7 @@ li {
 .Archie_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px;
+  overflow-wrap: anywhere;
   color: #FFAA7F; 
 }
   
@@ -159,6 +192,7 @@ li {
 .Rob_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px;
+  overflow-wrap: anywhere;
   color: #FFB4FC;   
 }
 
@@ -178,5 +212,26 @@ li {
 .Richie_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px;
+  overflow-wrap: anywhere;
   color: #FFDC95;   
+}
+
+
+.username {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 20px;
+  color: red;
+}
+
+.question_asked {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 25px;
+  color: #FFDC95; 
+}
+
+.question_answer {
+  text-indent: 25px;
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 25px;
+  color: #5DADEC; 
 }
