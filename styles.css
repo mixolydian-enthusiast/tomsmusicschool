@@ -57,6 +57,26 @@ li {
   background-color: #EB6A3C;
 }
 
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
 .Pooplord_container {
   display: flex;
   margin-top: 20px;
