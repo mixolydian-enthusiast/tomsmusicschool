@@ -3,6 +3,7 @@
 <head>
   <title>Tom's Music School</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <meta charset="utf-8"/>
   <meta name="description" content="Tom's Music School is the number one choice of the fonky moosician.">
 </head>
@@ -10,9 +11,9 @@
 
 <p><marquee>Here at Tom's Music School we use the deprecated marquee tag because it reminds us of the olden golden days of Vaudeville! Oh gee whiz Louise what a swell day, boy does it make ya wanna tap dance merrily with your gal! Wait a timebit. Is that Tom? Why I'll be darned, I better stop the gobbledygook and finish up my typewriting in no time flat!</marquee></p>
 
-<h1 id="tms_title">Tom's Music School</h1>
+<h1 class="glow" id="tms_title">&#9836; Tom's Music School &#9836;</h1>
 
-<audio id="tms_title_audio" src="audio/toms-music-school.mp3"></audio>
+<audio id="tms_title_audio" src="toms-music-school.mp3"></audio>
   
 <script>
 document.getElementById("tms_title").addEventListener("click", function(){
@@ -20,11 +21,14 @@ document.getElementById("tms_title").addEventListener("click", function(){
 });
   </script>
 
+<p style="text-align: center; color: red;">(We didn't copy anything from w3schools.)</p>
+
 <ul class="ul_header">
   <li class="li_header"><a class="active">Home</a></li>
   <li class="li_header"><a href="ask-tom.html">Ask Tom</a></li>
-  <li class="li_header"><a href="scores.html">Scores</a></li>
+  <li class="li_header"><a href="music.html">Music</a></li>
 </ul>
+
 
 <section>
   <h2>&#9836; CLASSES WE OFFER &#9836;</h2>
@@ -90,9 +94,22 @@ document.getElementById("tms_title").addEventListener("click", function(){
   <div class="Rob_container">  
     <img src="images/SCARR_Rob_Scared_Shtless_Transparent.png" alt="[ROB]" width="251" height="251">
     <p class="Rob_container_text">But that Friday jazz trunkpet improv thing, it sends me to the cemetery!!!</p>
-  </div>  
+  </div>
+
+<div class="Tom_container">  
+    <img src="images/SCARR_Tom_Grooves_Transparent.png" alt="[ROB]" width="251" height="251">
+    <p class="Tom_container_text">The teacher is awesome!
+	<br>
+	Oh wait, <strong>I'm</strong> the teacher :p</p>
+  </div>    
   
 </section>
+
+
+<footer>
+  <p style="text-align: right;">&copy; 2022 Groove City Records. All rights reserved.</p>
+</footer>
+
 
 </body>
 </html>
