@@ -14,22 +14,20 @@
 
 <br>
 
- <div class="contact_form">
-  <form method="POST" data-netlify="true">
-    
-   <fieldset>
-	<input placeholder="Your fake name here." type="text" required>
-   </fieldset>
-   
-   <fieldset>
-    <textarea id="subject" name="subject" placeholder="Your message to Tom." required></textarea>
-   </fieldset>
-      
-   <fieldset>
-    <input type="submit" value="Submit">
-   </fieldset>
-  </form>
-</div>
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your fake name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your fake email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your groovy message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 
 <div id="202201211040" class="question_section">
 	<span class="question_username">tobbythepretentious</span> 
