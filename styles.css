@@ -1,7 +1,6 @@
 body {
 	max-width: 1080px; 
-	margin: 0 auto !important; 
-	float: none !important; 
+	margin: 0 auto;
 	background-color: #1F2527;
 }
 
@@ -110,7 +109,7 @@ a:active {
 .Pooplord_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px;
-  overflow-wrap: anywhere;
+  overflow-wrap:break-word;
   color: #D6C5B2; 
 }
 
@@ -130,7 +129,7 @@ a:active {
 .Scott-Cornman_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px;
-  overflow-wrap: anywhere;
+  overflow-wrap:break-word;
   color: #D8CE5E; 
 }
   
@@ -150,7 +149,7 @@ a:active {
 .Rupus_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px; 
-  overflow-wrap: anywhere;
+  overflow-wrap:break-word;
   color: #D87C96;  
 }
 
@@ -170,7 +169,7 @@ a:active {
 .Flarglin_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px;
-  overflow-wrap: anywhere;
+  overflow-wrap:break-word;
   color: #FFE300;   
 }
 
@@ -190,7 +189,7 @@ a:active {
 .Pete_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px;
-  overflow-wrap: anywhere;
+  overflow-wrap:break-word;
   color: #CCD9F2; 
 }
 
@@ -210,7 +209,7 @@ a:active {
 .Archie_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px;
-  overflow-wrap: anywhere;
+  overflow-wrap:break-word;
   color: #FFAA7F; 
 }
   
@@ -230,7 +229,7 @@ a:active {
 .Rob_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px;
-  overflow-wrap: anywhere;
+  overflow-wrap:break-word;
   color: #FFB4FC;   
 }
 
@@ -250,7 +249,7 @@ a:active {
 .Richie_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px;
-  overflow-wrap: anywhere;
+  overflow-wrap:break-word;
   color: #FFDC95;   
 }
 
@@ -270,14 +269,27 @@ a:active {
 .Tom_container_text {
   font-family: Arial, Tahoma, sans-serif;
   font-size: 50px;
-  overflow-wrap: anywhere;
+  overflow-wrap:break-word;
   color: #FFD658;   
 }
 
-.username {
+.question_section {
+margin-bottom: 100px;
+}	
+
+.question_username {
+  display: inline-block;
+  margin-right: 10px;
   font-family: Arial, Tahoma, sans-serif;
   font-size: 20px;
   color: red;
+}
+
+.question_date {
+  display: inline-block;
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 20px;
+  color: white;
 }
 
 .question_asked {
@@ -287,8 +299,18 @@ a:active {
 }
 
 .question_answer {
+  margin: 10px auto;
   text-indent: 25px;
   font-family: Arial, Tahoma, sans-serif;
   font-size: 25px;
   color: #5DADEC; 
+}
+
+.contact_form {
+  padding: 20px;
+  color: white;
+}
+
+fieldset {
+    border: 0;
 }
