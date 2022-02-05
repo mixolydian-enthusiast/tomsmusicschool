@@ -2,6 +2,7 @@ body {
 	max-width: 1080px; 
 	margin: 0 auto;
 	background-color: #1F2527;
+	word-break: break-all;
 }
 
 h1 {
