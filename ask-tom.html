@@ -15,15 +15,15 @@
 <br>
 
 <div class="ask_tom_contact_form">  
-  <form id=”contact” onsubmit=”return postToGoogle();”>
+  <form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSeMoOVzeLa-AeRIDJ_Bx9dM3NkbRwXFDrq5zCC5wwA02qVi7w/formResponse" id="contact" >
     <fieldset>
-      <input placeholder="Your fake name." type="text" name="entry.2005620554" data-name="Name" id="Name" tabindex="1" required autofocus>
+      <input name="entry.2005620554" required type="text" placeholder="Your fake name.">
     </fieldset>
     <fieldset>
-      <textarea placeholder="Your message to Tom." data-name="Message" id="Message" name="entry.839337160" tabindex="2" required></textarea>
+	    <input name="entry.839337160" required type="text"placeholder="Your groovy question.">
     </fieldset>
     <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      <input type="submit" value="Ask"</button>
     </fieldset>
   </form>
 </div>
@@ -407,33 +407,6 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<script>
-    function postToGoogle() {
-      var field1 = $("#Name").val();
-      var field2 = $("#Message").val();
-
-      $.ajax({
-        url: "{https://docs.google.com/forms/u/3/d/e/1FAIpQLSeMoOVzeLa-AeRIDJ_Bx9dM3NkbRwXFDrq5zCC5wwA02qVi7w/formResponse}",
-          
-        //add your google form generated numbers below which are also the 'names' of your inputs     
-        data: {
-          "entry.2005620554": field1,
-          "entry.839337160": field2       
-        },
-        type: "POST",
-        dataType: "xml",
-        success: function (d) {
-          $('#contact').trigger('reset');
-        },
-        error: function (x, y, z) {
-          $('#contact').trigger('reset');
-        }
-      });
-      return false;
-    }
-  </script>
-
 
 
 <script>
