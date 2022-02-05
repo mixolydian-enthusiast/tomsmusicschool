@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<h1 class="glow" id="tms_title">&#9836; Tom's Music School &#9836;</h1>
+<h1 id="tms_title">&#9836; TOM'S MUSIC SCHOOL &#9836;</h1>
 
 <ul class="ul_header">
   <li class="li_header"><a href="index.html">Home</a></li>
@@ -19,7 +19,7 @@
   <li class="li_header"><a href="music.html" class="active">Music</a></li>
 </ul>
 
-<h1>Music</h1>
+<h2>&#9836; Music &#9836;</h2>
 
 <ul>
   <li>Archie leitmotif - canon at the octave (2021)
@@ -31,5 +31,17 @@
   <p>&copy; 2022 S.C.A.R.R. Productions.</p>
 </div>
 
+
+
+
+
+<audio id="tms_title_audio" src="content/toms-music-school.mp3"></audio>
+  
+<script>
+document.getElementById("tms_title").addEventListener("click", function(){
+    document.getElementById("tms_title_audio").play();
+});
+  </script>
+  
 </body>
 </html>

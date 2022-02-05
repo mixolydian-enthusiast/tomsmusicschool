@@ -10,14 +10,15 @@
 </head>
 <body>
 
-<h1 class="glow" id="tms_title">&#9836; Tom's Music School &#9836;</h1>
+<h1 id="tms_title">&#9836; TOM'S MUSIC SCHOOL &#9836;</h1>
 
 <ul class="ul_header">
   <li class="li_header"><a href="index.html">Home</a></li>
   <li class="li_header"><a href="ask-tom.html" class="active">Ask Tom</a></li>
   <li class="li_header"><a href="music.html">Music</a></li>
 </ul>
-<h1>Ask Tom</h1>
+
+<h2>&#9836; Ask Tom &#9836;</h2>
 
 <br>
 
@@ -497,12 +498,28 @@ Wait I mean I didn't do it</div>
 <br>
 </div>
 
+
+<ul class="ul_header">
+  <li class="li_header_bottom"><a href="index.html">Home</a></li>
+  <li class="li_header_bottom"><a href="ask-tom.html" class="active">Ask Tom</a></li>
+  <li class="li_header_bottom"><a href="music.html">Music</a></li>
+</ul>
+
 <div class="footer">
   <p>&copy; 2022 S.C.A.R.R. Productions.</p>
 </div>
 
 
 
+
+
+<audio id="tms_title_audio" src="content/toms-music-school.mp3"></audio>
+  
+<script>
+document.getElementById("tms_title").addEventListener("click", function(){
+    document.getElementById("tms_title_audio").play();
+});
+  </script>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
