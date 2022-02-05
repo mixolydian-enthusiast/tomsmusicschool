@@ -9,26 +9,15 @@
 </head>
 <body>
 
-<p><marquee>Here at Tom's Music School we use the deprecated marquee tag because it reminds us of the olden golden days of Vaudeville! Oh gee whiz Louise what a swell day, boy does it make ya wanna tap dance merrily with your gal! Wait a timebit. Is that Tom? Why I'll be darned, I better stop the gobbledygook and finish up my typewriting in no time flat!</marquee></p>
-
 <h1 class="glow" id="tms_title">&#9836; Tom's Music School &#9836;</h1>
 
-<audio id="tms_title_audio" src="content/toms-music-school.mp3"></audio>
-  
-<script>
-document.getElementById("tms_title").addEventListener("click", function(){
-    document.getElementById("tms_title_audio").play();
-});
-  </script>
-
-<p style="text-align: center; color: red;">(We didn't copy anything from w3schools.)</p>
-
 <ul class="ul_header">
-  <li class="li_header"><a class="active">Home</a></li>
+  <li class="li_header"><a href="index.html" class="active">Home</a></li>
   <li class="li_header"><a href="ask-tom.html">Ask Tom</a></li>
   <li class="li_header"><a href="music.html">Music</a></li>
 </ul>
 
+<p><marquee>Here at Tom's Music School we use the deprecated marquee tag because it reminds us of the olden golden days of Vaudeville! Oh gee whiz Louise what a swell day, boy does it make ya wanna tap dance merrily with your gal! Wait a timebit. Is that Tom? Why I'll be darned, I better stop the gobbledygook and finish up my typewriting in no time flat!</marquee></p>
 
 <section>
   <h2>&#9836; CLASSES WE OFFER &#9836;</h2>
@@ -105,11 +94,22 @@ document.getElementById("tms_title").addEventListener("click", function(){
   
 </section>
 
+<div class="footer">
+  <p>&copy; 2022 S.C.A.R.R. Productions.</p>
+</div>
 
-<footer>
-  <p style="text-align: right;">&copy; 2022 S.C.A.R.R. Productions. All rights reserved.</p>
-</footer>
 
+
+
+
+<audio id="tms_title_audio" src="content/toms-music-school.mp3"></audio>
+  
+<script>
+document.getElementById("tms_title").addEventListener("click", function(){
+    document.getElementById("tms_title_audio").play();
+});
+  </script>
+ 
 </body>
 </html>
 

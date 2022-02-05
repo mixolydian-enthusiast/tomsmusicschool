@@ -36,8 +36,7 @@ li {
 }
 
 .li_header {
-  float: center;
-  background-color: green;
+  float: left;
 }
 
 .li_header a {
@@ -337,4 +336,14 @@ fieldset {
 
 .ask_tom_contact_form {
   margin-bottom: 50px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
 }
