@@ -305,3 +305,36 @@ margin-bottom: 100px;
   font-size: 25px;
   color: #5DADEC; 
 }
+
+.real_question {
+  margin-left: 10px;
+  font-family: Arial, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #FFDC95;
+  background-color: red;  
+}
+
+/* https://jsfiddle.net/y45nY/1/ */
+.bt {
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    background: black;
+    border-radius: 3px;
+    box-shadow: 0 0 2px #333;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.bt > span { display: none; }
+
+fieldset {
+  border: 0;
+}
+
+.ask_tom_contact_form {
+  margin-bottom: 50px;
+}
