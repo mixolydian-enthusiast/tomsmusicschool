@@ -304,10 +304,10 @@ fieldset {
 
 .blog_table {
   border-collapse: separate;
-  border-spacing: 50px 0;
+  border-spacing: 20px 0;
 }
 
 .blog_table td {
+  max-width: 300px;
   padding: 10px 0;
-  width: 251px;
 }
