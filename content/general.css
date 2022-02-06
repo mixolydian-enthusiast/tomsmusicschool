@@ -2,6 +2,7 @@ body {
 	max-width: 800px; 
 	margin: 0 auto;
 	margin-bottom: 100px;
+	padding: 0 10;
 	background-color: #1F2527;
 	font-family: Arial, Tahoma, sans-serif;
 	font-size: 1em;
@@ -280,7 +281,6 @@ margin-bottom: 20px;
     cursor: pointer;
     text-align: center;
 }
-
 
 .bt > span { display: none; }
 
