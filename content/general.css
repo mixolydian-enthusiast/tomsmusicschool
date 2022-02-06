@@ -308,6 +308,6 @@ fieldset {
 }
 
 .blog_table td {
-  max-width: 300px;
   padding: 10px 0;
+  vertical-align: baseline;
 }
