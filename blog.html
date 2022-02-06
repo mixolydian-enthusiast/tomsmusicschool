@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Blog</title>
+  <link rel="stylesheet" href="content/general.css">
+  <link rel="icon" type="image/x-icon" href="content/favicon.ico">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="Tom's blog never fails to deliver.">
+</head>
+<body>
+
+<h1 id="tms_title">&#9836; TOM'S MUSIC SCHOOL &#9836;</h1>
+
+<ul class="ul_header">
+  <li class="li_header"><a href="index.html">Home</a></li>
+  <li class="li_header"><a href="ask-tom.html">Ask Tom</a></li>
+  <li class="li_header"><a href="music.html">Music</a></li>
+  <li class="li_header"><a href="blog.html" class="active">Blog</a></li>
+</ul>
+
+<h2>&#9836; Blog &#9836;</h2>
+
+<table class="blog_table">
+
+ <tr>
+   <td><strong>Article name</strong></td>
+   <td><strong>Description</strong></td>
+   <td><strong>Date added</strong></td>	
+  <tr>
+   <td><a href="content/jquery-show-test.html">jQuery Show Test</a></td>
+   <td>A jQuery show test.</td>
+   <td>Feb 6, 2022</td>
+ </tr>	
+ <tr>
+   <td><a href="content/tom-grooves-newsletter.pdf">Tom Grooves Newsletter</a></td>
+   <td>A newsletter Tom sent out on Feb 3, 2021.</td>
+   <td>Feb 6, 2022</td>
+ </tr>		
+ <tr>
+   <td><a href="content/deprecated-marquee-tag.html">Deprecated marquee tag</a></td>
+   <td>Tom's deprecated marquee code, previously on the homepage.</td>
+   <td>Feb 6, 2022</td>
+ </tr> 
+</table>
+
+<ul class="ul_header">
+  <li class="li_header_bottom"><a href="index.html" class="active">Home</a></li>
+  <li class="li_header_bottom"><a href="ask-tom.html">Ask Tom</a></li>
+  <li class="li_header_bottom"><a href="music.html">Music</a></li>
+</ul>
+
+
+<div class="footer">
+  <p>&copy; 2022 S.C.A.R.R. Productions.</p>
+</div>
+
+
+
+
+
+<audio id="tms_title_audio" src="content/toms-music-school.mp3"></audio>
+  
+<script>
+document.getElementById("tms_title").addEventListener("click", function(){
+    document.getElementById("tms_title_audio").play();
+});
+  </script>
+ 
+</body>
+</html>
+
